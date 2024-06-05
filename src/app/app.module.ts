@@ -7,9 +7,10 @@ import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './counter.reducer';
 import { CommonModule } from '@angular/common';
 import { MyCounterComponent } from './my-counter/my-counter.component';
+import { BookstoreComponent } from './bookstore/bookstore.component';
 
 @NgModule({
-  declarations: [AppComponent, MyCounterComponent],
+  declarations: [AppComponent, MyCounterComponent, BookstoreComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
